@@ -1,0 +1,98 @@
+.titre-article {
+  text-align: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s ease-out;
+}
+
+a:hover {
+  color: #f0b2b2;
+}
+
+nav {
+  display: flex;
+  background-color: mediumpurple;
+  padding: 2px;
+  margin: 40px;
+  justify-content: center;
+}
+
+ul {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: larger;
+  font-weight: 100;
+  color: white;
+  background-color: darkslateblue;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin: 10px;
+  padding: 15px;
+  width: 90%;
+}
+
+body {
+  background-color: black;
+}
+
+main {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: small;
+  color: thistle;
+}
+
+.logo {
+  position: fixed;
+  bottom: 15px;
+  left: 10px;
+  width: 180px;
+}
+
+.personnages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.personnages img {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  object-position: center;
+  transition: content 0.5s ease;
+}
+
+.personnages > a > p {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  font-size: large;
+  width: 260px;
+}
+
+.personnages > a > h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.chicanormal:hover {
+  content: url(chicamean.png);
+}
+
+.freddynormal:hover {
+  content: url(freddymean.png);
+}
+
+.bonnienormal:hover {
+  content: url(bonniemean.png);
+}
+
+.foxynormal:hover {
+  content: url(foxymean.png);
+}

@@ -1,0 +1,58 @@
+.titre-article {
+  text-align: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s ease-out;
+}
+
+a:hover {
+  color: #f0b2b2;
+}
+
+body {
+  background-image: url(puppets.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+nav {
+  display: flex;
+  background-color: mediumpurple;
+  padding: 2px;
+  margin: 40px;
+  justify-content: center;
+}
+
+ul {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: larger;
+  font-weight: 100;
+  color: white;
+  background-color: darkslateblue;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin: 10px;
+  padding: 15px;
+  width: 90%;
+}
+
+.logo {
+  position: fixed;
+  bottom: 15px;
+  left: 10px;
+  width: 180px;
+}
+
+.bienvenue {
+  display: flex;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 200px;
+  color: beige;
+  text-align: center;
+
+}
